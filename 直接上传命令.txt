@@ -1,0 +1,33 @@
+# ============================================
+# CI-SDR 直接上传到GitHub - 命令序列
+# ============================================
+# 
+# 使用方法：
+# 1. 在GitHub上创建新仓库（不要初始化README）
+# 2. 复制下面的命令，替换YOUR_USERNAME和REPO_NAME
+# 3. 在终端中逐行执行
+
+cd /Users/qing/PycharmProjects/sentiment_basis
+
+# 初始化Git仓库
+git init
+
+# 添加所有文件
+git add .
+
+# 提交代码
+git commit -m "初始提交：CI-SDR基于反事实推理的情感偏差消除推荐系统"
+
+# 添加远程仓库（替换YOUR_USERNAME和REPO_NAME）
+git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+
+# 推送到GitHub
+git branch -M main
+git push -u origin main
+
+# ============================================
+# 如果提示需要身份验证：
+# 1. 访问 https://github.com/settings/tokens
+# 2. 生成新的Personal Access Token
+# 3. 在密码提示处输入token（不是GitHub密码）
+# ============================================
