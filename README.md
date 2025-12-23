@@ -1,6 +1,5 @@
-# CI-SDR: 基于反事实推理的情感偏差消除推荐系统
+# 个人尝试
 
-基于论文《Eliminating Sentiment Bias in Recommender Systems by Counterfactual Inference》的实现。
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)](https://pytorch.org/)
